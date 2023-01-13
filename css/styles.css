@@ -163,34 +163,60 @@ main {
   font-weight: 400;
 }
 /* desktop screen */
+
 @media (min-width: 1440px) {
   main {
     max-height: 100vh;
-    background-color: red;
   }
   .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     width: 70vw;
     max-width: 1170px;
-    max-height: 60vh;
+    max-height: 50vh;
   }
-  .card-img {
+  .img-container {
     width: 50%;
+    height: auto;
+  }
+  .img-container::after,
+  .card-img {
+    /* only for .card-img */
     height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: var(--borderRadius);
   }
-  .card-info,
-  .stats {
+  .card-info {
     text-align: left;
+    padding: 3.5rem 0 0 2rem;
+    width: 45%;
+    margin: 0;
   }
-
+  .card-info p {
+    font-size: 0.9rem;
+  }
   .card-info h1 {
     font-size: 2rem;
-    /* line-height: 1.2;
-  width: 85%;
-  margin: 0 auto;
-  margin-bottom: 1rem; */
+  }
+  .stats {
+    float: left;
+    width: 100%;
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .stat {
+    width: 30%;
+    display: inline-block;
+  }
+  .stat h1 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 0.4rem;
+  }
+  .stat p {
+    font-size: 0.6rem;
+    letter-spacing: 0.12rem;
   }
 }
 /* 
