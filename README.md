@@ -16,15 +16,15 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 -Mobile Screen
 
-![screenshot of project](./design/screenshot-1.png)
+![screenshot of project](./images/screenshot-1.png)
 
 -Desktop Screen
 
-![screenshot of project](./design/screenshot-2.png)
+![screenshot of project](./images/screenshot-2.png)
 
 ### Live Site
 
-[Click Here](https://lovely-sherbet-284170.netlify.app/)
+[Click Here](https://thunderous-sunflower-af2f12.netlify.app/)
 
 ### Built with
 
