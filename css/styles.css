@@ -78,7 +78,7 @@ a {
 }
 /* 
 ====
-Actual style
+Main
 ====
 */
 main {
@@ -88,12 +88,14 @@ main {
   height: 150vh;
   padding: 2rem 0;
 }
+/* card style */
 .card {
   width: 65vh;
   border-radius: var(--borderRadius);
   background: var(--dark-desaturated-blue);
   text-align: center;
 }
+/* image */
 .card-img {
   position: relative;
   width: 100%;
@@ -120,28 +122,36 @@ main {
   mix-blend-mode: color;
   opacity: 0.55;
 }
+/* card info */
 .card-info {
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
   margin: 0 auto;
 }
 .card-info h1 {
   font-size: 2.5rem;
   line-height: 1.2;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
 .card-info p {
-  width: 60%;
+  width: 85%;
   margin: 0 auto;
+  font-size: 1.35rem;
 }
 .special {
   color: var(--soft-violet);
 }
+/* card stats */
 .stats {
   text-transform: uppercase;
   text-align: center;
 }
+/* 
+====
+Footer
+====
+*/
 footer {
   position: fixed;
   bottom: 0;
