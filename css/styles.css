@@ -102,6 +102,10 @@ main {
   filter: brightness(50%) contrast(75%);
   border-top-left-radius: var(--borderRadius);
   border-top-right-radius: var(--borderRadius);
+  /* for alt */
+  color: var(--white);
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 .img-container {
   position: relative;
@@ -119,6 +123,7 @@ main {
   mix-blend-mode: color;
   opacity: 0.55;
 }
+
 /* card info */
 .card-info {
   padding: 3rem 2rem;
